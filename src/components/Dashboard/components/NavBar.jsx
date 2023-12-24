@@ -5,7 +5,7 @@ import { FaPlus } from "react-icons/fa";
 function NavBar() {
   return (
     <>
-      <div className="navbar bg-sky-600 bg-opacity-90">
+      <div className="navbar fondo bg-opacity-90">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn text-white btn-ghost lg:hidden">
@@ -66,7 +66,7 @@ function NavBar() {
             </li>
           </ul>
         </div>
-        <div className="navbar-end space-x-2">
+        <div className="navbar-end mr-4">
           <a className="btn btn-sm">Crear Proyecto<FaPlus />
 </a>
         </div>
