@@ -22,7 +22,7 @@ function NavBar() {
                 <a >Historial</a>
               </li>
               <li>
-                <a>Calculos</a>
+                <a >Calculos</a>
                 <ul className="p-2">
                   <li>
                     <a>Calculo 1</a>

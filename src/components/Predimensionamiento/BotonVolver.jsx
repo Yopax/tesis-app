@@ -6,7 +6,7 @@ import { GoArrowLeft } from "react-icons/go";
 function BotonVolver() {
   return (
     <Link href="/dashboard">
-      <button className="flex btn-sm m-6 h-4 items-center btn  text-sm font-semibold shadow-xs text-sky-700">
+      <button className="flex btn-sm mt-2 mx-6 h-4 items-center btn  text-sm font-semibold shadow-xs text-sky-700">
       <GoArrowLeft /> volver al dashboard
       </button>
     </Link>

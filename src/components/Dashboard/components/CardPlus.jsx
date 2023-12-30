@@ -7,7 +7,7 @@ import { FaPlus } from "react-icons/fa";
 
 function CardPlus({title,enlace}) {
   return (
-    <div className="card fondo w-[356px] h-40 shadow-xl">
+    <div className="card fondo w-[318px] h-40 shadow-xl">
       <div className="card-body fondo2 rounded-lg roun justify-center items-center">
         <div className="card-actions">
           <Link href={`${enlace}`}>
